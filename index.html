@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Frames of Light</title>
+  <link rel="stylesheet" href="css/">
+</head>
+<body>
+  <header class="hero">
+    <video autoplay muted loop id="bg-video">
+      <source src="videos/intro.mp4" type="video/mp4">
+    </video>
+    <div class="overlay">
+      <h1>Frames of Light</h1>
+      <p>Cinematic Photography by Oliver</p>
+      <audio id="bg-music" autoplay loop>
+        <source src="music/ambient.mp3" type="audio/mp3">
+      </audio>
+      <button onclick="toggleMusic()">🔊 Toggle Music</button>
+    </div>
+  </header>
+  <nav>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html">Behind the Lens</a>
+    <a href="collections.html">Collections</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</body>
+<script src="js/main.js"></script>
+</html>
